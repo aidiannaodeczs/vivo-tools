@@ -1,20 +1,38 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<title>vivo Y51搞机工具箱</title>
+		<title>下载 - vivo Y51搞机工具箱</title>
 		<link rel="icon" type="image/png" sizes="144x144" href="images/icon.png"/>
 		<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="images/icon.png"/>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<style >
 			#image{
+				width: 75%;
+				height: 67.5rem;
+				text-align: center;
+				float: left;
+			}
+			#todownload{
+				width: 25%;
+				height: 67.5rem;
+				text-align: center;
+				border: transparent;
+				float: left;
+			}
+			#todownload_a{
+				height: 6rem;
+				width: 24.5rem;
+				margin-top: 8%;
+			}
+			#download_beta{
 				text-align: center;
 			}
-			#head{
-				padding-top: 0px;
+			#down{
+				list-style-type:none;
 			}
 			body{
 				color: transparent;
@@ -22,7 +40,6 @@
 				background-color: whitesmoke;
 			}
 			footer{
-				background-color: transparent;
 				text-align: center;
 			}
 			div{
@@ -30,13 +47,14 @@
 				color: black;
 				
 			}
-			.ifrashow{
-				display: block;
-			}
-			.ifrahide{
-				display: none;
+			h4{
+				text-align: left;
+				margin-left: 12%;
 			}
 			h6{
+				color: black;
+			}
+			.small-menu{
 				color: black;
 			}
 		</style>
@@ -46,36 +64,47 @@
 	</head>
 	<body>
 		<div class="panel-title" id="head">
-			<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar navbar-default" role="navigation">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a style="float: left;" class="navbar-brand" href="">vivo Y51搞机工具箱</a>
 						<h6 style="float: left;">v2.0</h6>
 					</div>
-					<div class="large-menu">
+					<div>
 						<ul class="nav navbar-nav" id="all">
 							<li><a id="home" href="index.html">首页</a></li>
 							<li><a id="download" href="download.html">下载</a></li>
 						</ul>
 					</div>
 				</div>
-			</nav>
-			
+			</div>
 		</div>
 		
 		<div class="panel-body">
 			<div>
-				<h2>全新vivo Y51搞机工具箱2.0</h2>
+				<h4>下载 - vivo Y51搞机工具箱</h4>
 			</div>
-		    <div id="image">
-	    	<img width="75%" src="images/title.png"/>
-		    </div>
-		    <div >
-		     	<div id="todownload">
-		     		<a href="download.html"><img href="" id="todownload_a" src="images/download.png" align="center" width="150px"/></a>
-		     	</div>
-		    </div>
-		</div>  
+			<div id="image">
+				<div style="width: 100%;">
+					<img width="75%" src="images/title.png"/>
+				</div>
+				<div style="width: 100%; margin-top: 0px;">
+					<h8 id="tips">vivo Y51搞机工具箱</h8>
+				</div>
+			</div>
+			<div id="todownload">
+				<ul id="down">
+					<li>
+						<a href="download1.html">
+							<img href="" id="todownload_a" src="images/download.png" align="center"/>
+						</a>
+					</li>
+					<li id="download_beta" style="padding-top: 8px;text-decoration:underline;">
+						<pp>点击后选择下载线路</p>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</body>
 	<footer>
 		<div class="panel-footer">
